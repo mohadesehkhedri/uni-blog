@@ -1,5 +1,6 @@
 import React from "react";
 import './styles.css';
+import Zoom from 'react-reveal/Zoom';
 
 //pictures
 import profileImag from "src/assets/pictures/profileImage.png";
@@ -15,9 +16,11 @@ import Line from 'src/assets/icons/Line.png';
 export default function AppTeam() {
 
   return (
-    
-      <div className="container">
 
+    <div className="container">
+
+      <Zoom right>
+        <>
           <div class="description description--team">
             <span class="description__title">
               Our reative team
@@ -61,8 +64,12 @@ export default function AppTeam() {
               )
             })}
           </div>
-      </div>
-  
+        </>
+
+      </Zoom>
+
+    </div>
+
 
   )
 

@@ -17,7 +17,7 @@ function BlogPost() {
 
     <div className="BlogPost">
       <Box sx={{ flexGrow: 1, marginTop: 15, marginBottom: 15 }}>
-        <Grid container spacing={3}>
+        <Grid container spacing={5}>
 
           <Grid item xs={8}>
 

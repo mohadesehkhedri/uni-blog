@@ -1,0 +1,5 @@
+.big-letter::first-letter {
+  font-size: 320%;
+  color: #5956E9;
+  font-weight: 650;
+}

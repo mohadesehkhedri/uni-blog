@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 import {
   Typography,
   Stack,
@@ -8,7 +9,6 @@ import blogPic from 'src/assets/pictures/blogPic.png'
 import blue from 'src/assets/pictures/blue.png'
 import pencil from 'src/assets/pictures/pencil.png'
 import diamond from 'src/assets/pictures/diamond.png'
-import T from 'src/assets/icons/T.png'
 import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import InsertCommentIcon from '@mui/icons-material/InsertComment';
@@ -46,11 +46,10 @@ function BlogDetailsPosts() {
         </Stack>
       </Stack>
 
-      <Stack spacing={2}>
+      <Stack spacing={2.5}>
         <Stack sx={{ display: "flex", flexDirection: "row" }}>
-          <div style={{ marginTop: -15 }}> <img src={T} alt="T" /> </div>
-          <Typography variant="body2" sx={{ color: "#6C6C72" }}>
-            he Memphis Design movement is one of unlikeliest success stories in the history of             design. Like so many artistic reactions, it began as an outlet for its creators, a way to rail against and confound elite sensibilities. The result was a style that was revolutionary in its time and whose spirit is a continual source of inspiration to this day.
+          <Typography className='big-letter' variant="body2" style={{ color: "#6C6C72" }}>
+            The Memphis Design movement is one of unlikeliest success stories in the history of             design. Like so many artistic reactions, it began as an outlet for its creators, a way to rail against and confound elite sensibilities. The result was a style that was revolutionary in its time and whose spirit is a continual source of inspiration to this day.
           </Typography>
         </Stack>
 

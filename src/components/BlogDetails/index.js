@@ -4,8 +4,6 @@ import {
   Grid,
   Typography,
   Stack,
-  Avatar,
-  Paper,
 } from '@mui/material';
 import BlogDetailsPosts from "src/components/BlogDetails/BlogDetailsPosts";
 import BlogDetailsPaper from "src/components/BlogDetails/BlogDetailsPaper";
@@ -19,13 +17,12 @@ function BlogDetails() {
 
     <div className="BlogDetails">
       <Box sx={{ flexGrow: 1, marginTop: 15, marginBottom: 15 }}>
-        <Grid container spacing={3}>
+        <Grid container spacing={5}>
 
           <Grid item xs={8}>
 
             <BlogDetailsPosts />
             <BlogDetailsPaper />
-
 
             <Stack
               sx={{ display: "flex", flexDirection: "row", justifyContent: "space-between", margin: 2 }}>
@@ -54,8 +51,6 @@ function BlogDetails() {
             </div>
 
             <CommentBox />
-
-
 
           </Grid>
 

@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import {
   Button,
-  Typography,
   TextField,
   Stack,
-  Avatar,
   Paper,
 } from '@mui/material';
-
 
 
 const CommentBox = () => {
@@ -48,14 +45,6 @@ const CommentBox = () => {
             Remove comment
           </Button>
         </Stack>
-        {/* 
-        <div>
-          {comment.map((comment, index) =>
-
-            <div key={index}>{comment}</div>
-          )}
-        </div> */}
-
 
         <div>
           {comment.map((comment, index) =>
@@ -68,7 +57,6 @@ const CommentBox = () => {
         </div >
 
       </Stack>
-
     </>
 
   );
