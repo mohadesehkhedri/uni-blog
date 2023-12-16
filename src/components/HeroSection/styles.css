@@ -1,0 +1,257 @@
+.top-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2.19rem;
+}
+
+.top-menu__left {
+  display: flex;
+  margin-right: -1.47rem;
+  margin-left: -1.47rem;
+}
+
+.top-menu__item {
+  display: flex;
+  align-items: center;
+  padding-right: 1.47rem;
+  padding-left: 1.47rem;
+}
+
+.top-menu__item .icon-size {
+  margin-right: 1.12rem;
+}
+
+.top-menu__right {
+  display: flex;
+  gap: 1.87rem;
+}
+
+.menu {
+  position: relative;
+  margin-top: 0.94rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.31rem;
+  padding: 1.06rem 0.31rem 0.81rem 3.25rem;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+  margin-bottom: 4.19rem;
+}
+
+.menu__logo {
+  position: absolute;
+  padding: 1.94rem 1rem;
+  background-color: white;
+  border-radius: 0.3125rem;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.menu__right {
+  padding-left: -2.69rem;
+}
+
+.menu__fontsize {
+  font-size: 20px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.menu-right-align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu__button {
+  border: none;
+  border-radius: 0.31rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0.75rem 1rem;
+  background-color: #5956E9;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.cards-align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5.19rem;
+}
+
+.card-wrapper {
+  width: 50%;
+  flex: 0 0 50%;
+}
+
+.card {
+  padding-right: 2rem;
+}
+
+.card-inner {
+  box-shadow: 18px -18px 0px 3px rgba(117, 114, 255, 1);
+  padding-top: 2.5rem;
+  padding-bottom: 2.56rem;
+  padding-left: 1.20rem;
+  padding-right: 1.20rem;
+  background-color: white;
+}
+
+.card__title {
+  color: #5956E9;
+  font-size: 3.05188rem;
+  font-weight: 700;
+  line-height: 3.96rem;
+  text-transform: uppercase;
+}
+
+.card__text {
+  margin-top: 1.12rem;
+  margin-bottom: 3.25rem;
+  color: #6C6C72;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.card__title2 {
+  color: black;
+  text-transform: uppercase;
+  line-height: 2.34375rem;
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+
+.card__icon {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.card-mobile {
+  padding-left: 5.875rem;
+}
+
+.card-mobile img {
+  width: 100%;
+}
+
+/*Responsive*/
+
+/*Tablet*/
+@media only screen and (max-width: 1139px) {
+  .menu {
+    margin-top: 2.19rem;
+    margin-bottom: 13.81rem;
+  }
+
+  .menu__right {
+    display: none;
+  }
+
+  .menu__left {
+    display: none;
+  }
+
+  .menu-align-button {
+    padding-left: 31.60rem;
+  }
+
+  .cards-align {
+    margin-bottom: 13.81rem;
+  }
+
+  .card-wrapper:first-child {
+    width: 55%;
+    flex: 0 0 55%;
+  }
+
+  .card-wrapper:last-child {
+    width: 45%;
+    flex: 0 0 45%;
+  }
+
+  .card {
+    padding-right: 1.62rem;
+  }
+
+  .card-inner {
+    padding: 0.88rem 0.44rem 0.88rem 1.13rem;
+  }
+
+  .card-mobile {
+    padding-left: 1.62rem;
+  }
+
+  .card__title {
+    font-size: 1.95rem;
+    line-height: 2.95rem;
+  }
+
+  .card__text {
+    width: 20.625rem;
+    height: 4.125rem;
+  }
+
+  .card__title2 {
+    font-size: 1.25rem;
+  }
+
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 767px) {
+  .top-menu {
+    display: none;
+  }
+
+  .menu {
+    margin-top: 5.5rem;
+    padding: 0.19em 0.19rem 0.19rem 0.56rem;
+    height: 2.5rem;
+  }
+
+  .menu__right {
+    display: none;
+  }
+
+  .menu__left {
+    display: none;
+  }
+
+  .menu__logo {
+    padding: 1.5rem 0.62rem;
+  }
+
+  .menu-align-button {
+    display: none;
+  }
+
+  .cards-align {
+    flex-direction: column;
+  }
+
+  .card-mobile {
+    margin-top: 2.5rem;
+    margin-left: 0rem;
+  }
+
+  .card__text {
+    width: 100%;
+    height: 100%;
+  }
+}

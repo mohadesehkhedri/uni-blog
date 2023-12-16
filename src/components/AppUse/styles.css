@@ -1,0 +1,43 @@
+.container-image {
+  background-image: url(src/assets/pictures/BackgroundImage.png);
+  color: white;
+
+}
+
+.container-imag--use {
+  height: 29.8125rem;
+  /* overflow: hidden; */
+
+}
+
+.description__title--margin-top {
+  margin-top: 7.5rem;
+}
+
+.picture {
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 48.125rem;
+  height: 19.9375rem;
+  transform: translateY(-2rem);
+}
+
+
+/*Responsive*/
+
+/*Tablet*/
+@media only screen and (max-width: 1139px) {
+
+  .picture {
+    width: 35.625rem;
+    height: 14.4375rem;
+  }
+
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 767px) {}

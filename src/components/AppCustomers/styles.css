@@ -1,0 +1,39 @@
+.sliders {
+  margin-top: 4.75rem;
+  margin-bottom: 7.5rem;
+}
+
+.sliders__box {
+  background-color: white;
+  padding: 2.5rem 3.87rem 2.25rem;
+  color: black;
+  border-radius: 0.63rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.24);
+}
+
+.slider__customer-job {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.875rem;
+  text-transform: uppercase;
+}
+
+.slider__customer-name {
+  font-size: 1.95313rem;
+  font-weight: 700;
+  line-height: 2.95313rem;
+  text-transform: uppercase;
+  margin-top: 1.25rem;
+}
+
+.slider__customer-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #6C6C72;
+}

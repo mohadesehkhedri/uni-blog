@@ -1,0 +1,106 @@
+.about-app-align {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8.62rem;
+}
+
+.about-app-wrapper {
+  width: 50%;
+  flex-basis: 50%;
+}
+
+
+.smartphone img {
+  margin-top: 3.75rem;
+}
+
+.shadow-box-align {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.75rem;
+}
+
+.shadow-box {
+  margin-top: -1.25rem;
+  margin-bottom: -1.25rem;
+}
+
+.shadow-box__box {
+  padding: 1.12rem;
+  border-radius: 0.63rem;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.shadow-box__space {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem
+}
+
+.shadow-box__title {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  line-height: 1.875rem;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.shadow-box__text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #6C6C72;
+  text-align: left;
+  margin-top: 0.75rem;
+}
+
+/*Responsive*/
+
+/*Tablet*/
+@media only screen and (max-width: 1139px) {
+
+  .smartphone img {
+    width: 100%;
+    margin-top: 4.75rem;
+  }
+
+  .about-app-wrapper {
+    width: 45%;
+    flex-basis: 45%;
+  }
+
+  .about-app-wrapper--shadow-box {
+    width: 55%;
+    flex-basis: 55%;
+  }
+
+  .shadow-box-align {
+    margin-top: 4.75rem;
+    padding-left: 3.75rem;
+  }
+
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 767px) {
+
+  .about-app-align {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .smartphone {
+    margin-top: 10.5rem;
+    margin-right: 0rem;
+  }
+
+  .shadow-box {
+    margin-top: 2.5rem;
+  }
+
+}

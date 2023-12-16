@@ -1,0 +1,219 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6.75rem;
+}
+
+.chat__space {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__title {
+  font-size: 1.5625rem;
+  font-weight: 600;
+  line-height: 2.34375rem;
+  text-transform: uppercase;
+}
+
+.chat__text {
+  margin-top: 1.12rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+  width: 18.5625rem;
+  height: 2.6875rem;
+}
+
+.around {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  margin-top: 3.75rem;
+}
+
+.around__pic {
+  width: 23.4375rem;
+  height: 50.75rem;
+  display: flex;
+  margin-left: 1.56rem;
+  margin-right: 1.56rem;
+}
+
+.around__space {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-top {
+  display: flex;
+  flex-direction: column;
+  margin-top: -3rem;
+}
+
+.flex-top1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -3rem;
+}
+
+.flex-bottun {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13rem;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.around--center {
+  text-align: center;
+  margin-bottom: 7.5rem;
+}
+
+.around--right {
+  text-align: right;
+}
+
+.around--left {
+  text-align: left;
+}
+
+.around__title {
+  font-weight: 600;
+  line-height: 2.34375rem;
+  text-transform: uppercase;
+  font-size: 1.5625rem;
+  margin-top: 1.37rem;
+
+}
+
+.around__text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1.13rem;
+}
+
+.around__text--center {
+  text-align: center;
+  margin-top: 1.13rem;
+}
+
+
+/*Responsive*/
+
+/*Tablet*/
+@media only screen and (max-width: 1139px) {
+
+  .chat__text {
+    width: 13.9375rem;
+    height: 2.6875rem;
+  }
+
+  .around__pic {
+    width: 13.375rem;
+    height: 29.25rem;
+    margin-left: 0.56rem;
+    margin-right: 0.56rem;
+  }
+
+  .around__title {
+    line-height: 1.875rem;
+    font-size: 1.25rem;
+  }
+
+  .flex-top {
+    margin-top: -0.5rem;
+  }
+
+  .flex-top1 {
+    margin-top: 3rem;
+  }
+
+  .flex-bottun {
+    margin-top: 3rem;
+  }
+
+  .flex-center {
+    margin-top: 3.5rem;
+  }
+
+  .scanner {
+    margin-top: -1rem;
+  }
+
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 767px) {
+
+  .chat {
+    margin-top: 8.75rem;
+  }
+
+  .chat__text {
+    width: 13.9375rem;
+    height: 2.6875rem;
+  }
+
+  .around__pic img {
+    margin-top: 2.5rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .around {
+    flex-direction: column;
+    margin-top: 3.75rem
+  }
+
+  .flex-top {
+    margin-top: 2.5rem;
+    align-items: center;
+  }
+
+  .flex-top1 {
+    margin-top: 2.5rem;
+    align-items: center;
+  }
+
+  .flex-bottun {
+    margin-top: 2.5rem;
+    align-items: center;
+  }
+
+  .flex-center {
+    align-items: center;
+  }
+
+  .around--center {
+    text-align: center;
+    margin-bottom: 7.5rem;
+  }
+
+  .around--right {
+    text-align: right;
+  }
+
+  .around--left {
+    text-align: left;
+  }
+
+  .scanner {
+    margin-top: 1rem;
+  }
+
+  .around__text {
+    text-align: center;
+  }
+
+}

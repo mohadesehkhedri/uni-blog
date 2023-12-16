@@ -1,0 +1,173 @@
+.checkout-app-align {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+}
+
+.checkout-wrapper {
+  width: 60%;
+  flex-basis: 60%;
+}
+
+.checkout-wrapper--phone {
+  width: 40%;
+  flex-basis: 40%;
+}
+
+
+.download-app-items {
+  margin-right: 2.5rem;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.75rem;
+}
+
+.slider-pic {
+  width: 688px;
+  height: 444px;
+}
+
+.slider-icons {
+  width: 84px;
+  height: 84px;
+}
+
+.slider__align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.slider__icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.description__text--left {
+  text-align: left;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  width: 35.625rem;
+  height: 5.4375rem;
+}
+
+.about {
+  margin-top: 2.5rem;
+}
+
+.about__icon {
+  margin-right: 1.56rem;
+}
+
+.about__space {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3.75rem;
+}
+
+.about__box {
+  display: flex;
+  flex-direction: column;
+  background-color: #5956E9;
+  border-radius: 0.63rem;
+  color: white;
+  font-weight: 600;
+  align-items: center;
+  align-content: center;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 1.88rem 0.62rem 1.25rem 0.62rem;
+  width: 10.625rem;
+  height: 11rem;
+}
+
+.about__box--align {
+  margin-right: 1.88rem;
+  margin-left: 1.88rem;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5625rem;
+  margin-top: 1.13rem;
+}
+
+.about__text2 {
+  margin-top: 1.13rem;
+}
+
+.app-design {
+  margin-top: 3.75rem;
+}
+
+.app-design img {
+  width: 100%;
+}
+
+
+/*Responsive*/
+
+/*Tablet*/
+@media only screen and (max-width: 1139px) {
+
+  .slider-icons {
+    display: none;
+  }
+
+  .about__box {
+    padding: 0.69rem 0.19rem 0.75rem 0.19rem;
+    width: 6rem;
+    height: 6.25rem;
+  }
+
+  .about__icons {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+
+  .about__text {
+    font-size: 1rem;
+  }
+
+  .about__box--align {
+    margin-right: 1.13rem;
+    margin-left: 1.13rem;
+  }
+
+  .checkout-wrapper {
+    width: 50%;
+    flex-basis: 50%;
+  }
+
+  .checkout-wrapper--phone {
+    width: 50%;
+    flex-basis: 50%;
+  }
+
+  .description__title {
+    /* width: 18rem; */
+  }
+
+  .description__text--left {
+    width: 20.5625rem;
+    height: 4.5625rem;
+    margin-bottom: 6.5rem;
+  }
+
+  .app-design {
+    margin-left: 2.5rem;
+  }
+
+
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 767px) {}
