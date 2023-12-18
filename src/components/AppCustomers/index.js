@@ -38,8 +38,6 @@ export default function HeroSactions() {
             </div>
           </div>
         </Zoom>
-
-
       </div>
     </div>
 

@@ -1,15 +1,12 @@
 import React from "react";
 import './styles.css';
 import Zoom from 'react-reveal/Zoom';
-import CheckoutSlider from "src/components/CheckoutApp/CheckoutSlider"
+import Carousel from "src/components/CheckoutApp/Carousel";
 
 //pictures
-import AppScreenshort from "src/assets/pictures/AppScreenshort.png";
 import AppDesgin from "src/assets/pictures/AppDesgin.png";
 
 //icons
-import RightIcon from "src/assets/icons/RightIcon.png";
-import LeftIcon from "src/assets/icons/LeftIcon.png";
 import Slider from "src/assets/icons/Slider.png";
 import googlePlayIcon from 'src/assets/icons/googlePlayIcon.png';
 import appStoreIcon from 'src/assets/icons/appStoreIcon.png';
@@ -23,7 +20,6 @@ export default function CheckoutApp() {
   return (
 
     <div className="container">
-            <CheckoutSlider />
 
       <Zoom right>
         <div className="description">
@@ -41,9 +37,7 @@ export default function CheckoutApp() {
       <Zoom right>
         <div className="slider">
           <div className="slider__align">
-            <div><img className="slider-icons" src={LeftIcon} alt="LeftIcon" /></div>
-            {/* <img className="slider-pic" src={AppScreenshort} alt="AppScreenshort" /> */}
-            <div><img className="slider-icons" src={RightIcon} alt="RightIcon" /></div>
+            <Carousel />
           </div>
         </div>
       </Zoom>
